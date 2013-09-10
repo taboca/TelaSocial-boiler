@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+          xml:lang="en"
+                xml:base="http://www.example.org">
+                  
+<item>
+  <title>TelaSocial </title>
+  <subtitle></subtitle>
+  <description></description>
+  <img src='http://telasocial.com.br:8888/static/shift/midia_1.png' />
+</item>
+
+<item>
+  <title>TelaSocial </title>
+  <subtitle></subtitle>
+  <description></description>
+  <img src='http://telasocial.com.br:8888/static/shift/midia_2.png' />
+</item>
+
+
+<item>
+  <title>TelaSocial </title>
+  <subtitle></subtitle>
+  <description></description>
+  <img src='http://telasocial.com.br:8888/static/shift/midia_3.png' />
+</item>
+
+
+<item>
+  <title>TelaSocial </title>
+  <subtitle></subtitle>
+  <description></description>
+  <img src='http://telasocial.com.br:8888/static/shift/midia_4.png' />
+</item>
+
+
+<item>
+  <title>TelaSocial </title>
+  <subtitle></subtitle>
+  <description></description>
+  <img src='http://telasocial.com.br:8888/static/shift/midia_5.png' />
+</item>
+
+
+<item>
+  <title>TelaSocial </title>
+  <subtitle></subtitle>
+  <description></description>
+  <img src='http://telasocial.com.br:8888/static/shift/midia_6.jpg' />
+</item>
+
+<item>
+  <title>TelaSocial </title>
+  <subtitle></subtitle>
+  <description></description>
+  <img src='http://telasocial.com.br:8888/static/shift/midia_7.jpg' />
+</item>
+
+
+<item>
+  <title>TelaSocial </title>
+  <subtitle></subtitle>
+  <description></description>
+  <img src='http://telasocial.com.br:8888/static/shift/midia_8.jpg' />
+</item>
+
+
+
+             
+
+</feed>
+
+
