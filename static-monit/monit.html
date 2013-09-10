@@ -1,0 +1,166 @@
+<html>
+    <head>
+<meta http-equiv="refresh" content="60">
+          <style>
+              div.panel { color:white; margin-top:0px;background-color:; width:230px; height:130px; display:inline-block; margin:0px; overflow:hidden;} 
+
+          
+  	.img { width:230px; height:110px; } 
+              body { background:black} 
+          </style>
+
+	<script src="vendor/jquery-min.js"></script>
+        <script type="text/javascript" src="lib/choreographer.js"></script>
+        <script type="text/javascript" src="zoom.js"></script>
+        <script>
+
+        function start() { 
+            setTimeout('start()',40000);
+        }
+
+	$(document).ready(function() {
+
+		register("/main/slot1", "target1", "./monit/index.html?url=http://172.25.59.101:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot2", "target2", "./monit/index.html?url=http://172.25.59.102:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot3", "target3", "./monit/index.html?url=http://172.25.59.103:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot4", "target4", "./monit/index.html?url=http://172.25.59.104:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot5", "target5", "./monit/index.html?url=http://172.25.59.105:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot6", "target6", "./monit/index.html?url=http://172.25.59.106:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot7", "target7", "./monit/index.html?url=http://172.25.59.107:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot8", "target8", "./monit/index.html?url=http://172.25.59.108:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot9", "target9", "./monit/index.html?url=http://172.25.59.109:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot10", "target10", "./monit/index.html?url=http://172.25.59.110:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot11", "target11", "./monit/index.html?url=http://172.25.59.111:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot12", "target12", "./monit/index.html?url=http://172.25.59.112:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot13", "target13", "./monit/index.html?url=http://172.25.59.113:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot14", "target14", "./monit/index.html?url=http://172.25.59.114:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot15", "target15", "./monit/index.html?url=http://172.25.59.115:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot16", "target16", "./monit/index.html?url=http://172.25.59.116:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot17", "target17", "./monit/index.html?url=http://172.25.59.117:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot18", "target18", "./monit/index.html?url=http://172.25.59.118:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot19", "target19", "./monit/index.html?url=http://172.25.59.119:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot20", "target20", "./monit/index.html?url=http://172.25.59.120:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot21", "target21", "./monit/index.html?url=http://172.25.59.121:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot22", "target22", "./monit/index.html?url=http://172.25.59.122:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot23", "target23", "./monit/index.html?url=http://172.25.59.123:8888/static/mini.jpg", iframeTemplate);
+		register("/main/slot24", "target24", "./monit/index.html?url=http://172.25.59.124:8888/static/mini.jpg", iframeTemplate);
+		compile();
+	});
+
+        </script>
+   </head>
+        <body id='main' onload="start()">
+
+        <div id='slide0' style='width:1280px;height:720px; overflow:hidden; text-align:center'>
+
+    <div class='panel' id='slide'>
+        <div>Bloco 02: 101 </div>
+	<div id='slot1' class='img' ></div>
+    </div>
+    <div class='panel' id='slid'>
+        <div>Bloco 03: 102</div>
+	<div id='slot2' class='img' ></div>
+    </div>
+    <div class='panel' id='slid'>
+        <div>Bloco 05: 103</div>
+	<div id='slot3' class='img' ></div>
+    </div>
+    <div class='panel' id='slide4'>
+        <div>Bloco 06: 104</div>
+	<div id='slot4' class='img' ></div>
+    </div>
+    <div class='panel' id='slide5'>
+        <div>Bloco 07: 105</div>
+	<div id='slot5' class='img' ></div>
+    </div>
+    <div class='panel' id='slide6'>
+        <div>Bloco 08: 106</div>
+	<div id='slot6' class='img' ></div>
+    </div>
+    <div class='panel' id='slide7'>
+        <div>Bloco 09: 107</div>
+	<div id='slot7' class='img' ></div>
+    </div>
+    <div class='panel' id='slide8'>
+        <div>Bloco 10: 108</div>
+	<div id='slot8' class='img' ></div>
+    </div>
+    <div class='panel' id='slide9'>
+        <div>Bloco 11: 109</div>
+	<div id='slot9' class='img' ></div>
+    </div>
+    <div class='panel' id='slide10'>
+        <div>Bloco 12: 110</div>
+	<div id='slot10' class='img' ></div>
+    </div>
+    <div class='panel' id='slide11'>
+        <div>Bloco 13: 111</div>
+	<div id='slot11' class='img' ></div>
+    </div>
+    <div class='panel' id='slide12'>
+        <div>Bloco 14: 112</div>
+	<div id='slot12' class='img' ></div>
+    </div>
+    <div class='panel' id='slide13'>
+        <div>Bloco 15: 113</div>
+	<div id='slot13' class='img' ></div>
+    </div>
+    <div class='panel' id='slide14'>
+        <div>ESAB. 2pav: 114</div>
+	<div id='slot14' class='img' ></div>
+    </div>
+
+    <div class='panel' id='slide15'>
+        <div>ESAB. 3pav: 115</div>
+	<div id='slot15' class='img' ></div>
+    </div>
+
+<div class='panel' id='slide16'>
+        <div>ESAB. 4pav: 116</div>
+	<div id='slot16' class='img' ></div>
+    </div>
+
+<div class='panel' id='slide17'>
+        <div>Prestivel: 117</div>
+	<div id='slot17' class='img' ></div>
+    </div>
+
+<div class='panel' id='slide18'>
+        <div>Polo Astronômico: 118</div>
+	<div id='slot18' class='img' ></div>
+    </div>
+
+<div class='panel' id='slide19'>
+        <div>Ponto Ônibus: 119</div>
+	<div id='slot19' class='img' ></div>
+    </div>
+
+<div class='panel' id='slide20'>
+        <div>Garagem: 120</div>
+	<div id='slot20' class='img' ></div>
+    </div>
+
+<div class='panel' id='slide22'>
+        <div>Eventos: 121</div>
+	<div id='slot21' class='img' ></div>
+    </div>
+
+<div class='panel' id='slide22'>
+        <div>Monitoramento: 122</div>
+	<div id='slot22' class='img' ></div>
+    </div>
+
+
+<div class='panel' id='slide23'>
+        <div>Marcelo: 123</div>
+	<div id='slot23' class='img' ></div>
+    </div>
+
+
+<div class='panel' id='slide24'>
+        <div>CRV: 124</div>
+	<div id='slot24' class='img' ></div>
+    </div>
+
+    </body>
+</html>

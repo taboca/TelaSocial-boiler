@@ -1,0 +1,20 @@
+{
+"rules": [
+
+{
+ "about":"start",
+ "function":"saveRSS",
+ "expiretimer":10000, 
+ "data":{"value":"http://app.telasocial.com.br/ksdc9","about":"destaques"}, "to":"next"
+}, 
+{
+ "about":"next",
+ "function":"timer",
+ "data":{"value":300000},
+ "to":"start"
+}
+
+]
+
+}
+

@@ -1,0 +1,20 @@
+{
+"rules": [
+
+{
+ "about":"start",
+ "function":"sync",
+ "expiretimer":10000, 
+ "data":{"value":"destaques","about":"destaques"}, "to":"next"
+}, 
+{
+ "about":"next",
+ "function":"timer",
+ "data":{"value":300000},
+ "to":"start"
+}
+
+]
+
+}
+
